@@ -1,0 +1,287 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+div.background {
+    background: url(IMG_4141.jpg) no-repeat;
+  
+    background-size: cover;
+    height: 700px;
+    
+
+
+}
+
+div.box{
+	font-family: "Geneva";
+	font-weight: bold;
+	color: white;
+    text-align: center;
+	vertical-align: middle;
+	line-height: 150px; 
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1{
+	font-size: 48pt;
+	color: #FFA375;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+
+#intro{
+	color: #FEC3A6; 
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size:28pt;
+
+}
+
+
+#nav ul{
+	list-style-type:none;
+	text-align: center;
+	margin: 0;
+	padding:0;
+	width: 100%;
+
+	
+
+	
+
+
+}
+
+#nav ul li{
+	display: inline;
+	
+		
+	padding-bottom: 100px;
+	width: 100%;
+	font-weight: bold;
+	font-family: "Geneva";
+    font-size: 12pt;
+	text-decoration: none;
+	padding: 20px;
+	color: #FEC3A6;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+
+
+}
+#nav ul li:hover{
+	
+	font-size: 28pt;
+}
+A{
+	text-decoration: none;
+	color: #FEC3A6;
+}
+.title {
+	font-weight: bold;
+	font-size: 24pt;
+	font-family: "Geneva";
+	float: left;
+	margin-left: 5%;
+	width: 20%;
+	
+	
+
+}
+
+
+
+.about_me{
+	background: white;
+
+	/* Old browsers */
+    color: #FFA375;
+   
+
+	overflow:auto;
+	float: left;
+	display: block;
+	width: 100%;
+}
+#stuff {
+	font-size: 14pt;
+	float:left;
+	width: 60%;
+	margin-left: 50px;
+	color: black;
+	font-family: "Geneva";
+
+}
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 */
+
+.stuff1 {
+	font-size: 14pt;
+	float:left;
+	width: 60%;
+	margin-top: -40px;
+	margin-left: 350px;
+	font-family: "Geneva";
+	
+}
+
+.edu{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9de96+0,8ab66b+68,8ab66b+87,8ab66b+92,8ab66b+99,398235+100 */
+/* Old browsers */
+color: white;
+
+
+	overflow:auto;
+	float: left;
+	display: block;
+	width: 100%;
+background: linear-gradient(#ED834E,#FEC3A6);
+	
+}
+
+
+.edu h5{
+	opacity: .5;
+}
+.edu p,h4,h5{
+	padding:0;
+	margin: 0;
+
+}
+.exp {
+	background: white;
+color: #FFA375;
+/*#DDF4C8*/
+
+	overflow:auto;
+	text-align: center;
+	float: left;
+	display: block;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.exp h4{
+	font-size: 28pt;
+	font-weight: bold;
+	color:#ED834E;
+
+
+}
+.place{
+	font-style: oblique;
+}
+.date{
+	opacity: 0.6;
+}
+.exp p,h5,h6{
+	padding:0;
+	margin: 0;
+	font-size: 11pt;
+	color:black;
+
+}
+.exp h5{
+	font-style: bold;
+	font-size: 14pt;
+}
+
+.skills{
+		
+color: white;
+
+background: linear-gradient(#ED834E,#FEC3A6);
+
+	overflow:auto;
+	float: left;
+	display: block;
+	width: 100%;
+
+}
+
+.skills ul, ol{
+	list-style-type: none;
+
+}
+.cat{
+	font-style: bold;
+	width: 85%;
+	font-size: 18pt;
+	color: #F25000;
+	border-bottom: 2pt solid #F25000;
+}
+.photos{
+			
+color: #FFA375;
+background: white;
+
+	overflow:auto;
+	float: left;
+	display: block;
+	width: 100%;
+}
+.title1{
+	font-weight: bold;
+	font-size: 24pt;
+	font-family: "Geneva";
+	float: left;
+	margin-left: 5%;
+	
+	
+
+}
+.contact{
+	
+color: white;
+
+background: linear-gradient(#ED834E,#FEC3A6);
+	overflow:auto;
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.looks{
+	 border-radius: 10px;
+	 padding-top: 20px;
+	 padding-left: 20px;
+	 padding-bottom: 20px;
+	 border: 1pt solid #DB8A6D;
+	 text-align: left;
+	 /*padding: 100px, 5px, 5px,5px;*/  
+
+}
+.contact1{
+	font-size: 14pt;
+	float:left;
+	width: 60%;
+	margin-top: -40px;
+	margin-left: 300px;
+	font-family: "Geneva";
+
+}
+
+.contact1 p{
+	font-size: 30pt;
+	font-style: bold;
+	color: white;
+
+
+}
+.imagelist{
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding:0;
+}
+.imagelist li{
+	display:inline;
+}
+.imagelist img{
+	
+	height: 10%;
+	width: 10%;
+	padding-left: 5%;
+	
+
+}
