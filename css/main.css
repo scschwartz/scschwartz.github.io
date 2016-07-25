@@ -210,6 +210,35 @@ background: linear-gradient(#ED834E,#FEC3A6);
 	color: #F25000;
 	border-bottom: 2pt solid #F25000;
 }
+
+
+
+.line {
+ white-space: nowrap;
+}
+
+.line * {
+ display: inline-block;
+}
+
+.line li{
+	padding-right: 20px;
+}
+ #circle {
+      width: 10px;
+      height: 10px;
+     border-radius: 25px;
+      
+      background: #F25000 ;
+    }
+#unfilled_circle{
+
+    border-radius: 8px/8px;
+    border:solid 2px #F25000;
+    width:7px;
+    height:7px;  
+}
+
 .photos{
 			
 color: #FFA375;
@@ -285,3 +314,10 @@ background: linear-gradient(#ED834E,#FEC3A6);
 	
 
 }
+
+
+
+
+
+
+
