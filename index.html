@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>Samantha Schwartz</title>
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" href="style_4.css">
 	<script src="java_style.js"></script>
+	<script src="changing.js"></script>
 </head>
 <body>
 
@@ -41,7 +42,7 @@
 <div class="edu">
 	<h2 class= "title">Education </h2>
 	<div class ="stuff1">
-		<div class= "school">
+		<div class= "school" >
 		<h5> Expected 2018 </h5>
 		<h4> University of Michigan      </h4>
 		<p> B.S.E Chemical Engineering </p>
@@ -63,18 +64,17 @@
 	<h2 class = "title">Experience </h2>
 	<div class="stuff1">
 		<h4> Teaching Experience </h4>
-		<div class="looks">
-			<div id="before" onclick="myFunction()">
-				<span>
+		<div class="looks" id = "IA" onmouseover = "change_IA()">
+			
+			
 		<h5> University of Michigan Chemical Engineering Department</h5> <h6>Instructional Aide <h6>
 			<p class = "place"> Ann Arbor, MI </p>
 			<p class= "date"> Fall 2016 </p>
-		</span>
-		</div>
-		
+	
+
 		</div>
 			<br>
-			<div class="looks">
+			<div class="looks" id = "TA" onmouseover = "change_TA()">
 		
 		<h5> Girls Who Code</h5> <h6>Teaching Assistant </h6>
 			<p class = "place"> Washington DC </p>
@@ -82,7 +82,7 @@
 	</div>
 	
 		<h4> Research Experience </h4>
-		<div class="looks">
+		<div class="looks" id = "research" onmouseover = "change_research()">
 		
 		<h5> Robert Ziff's Laboratory </h5> <h6>Undergraduate Researcher</h6> 
 			<p class = "place"> Ann Arbor, MI </p>
@@ -90,7 +90,7 @@
 			
 	</div>
 		<h4> Working Experience </h4>
-		<div class="looks">
+		<div class="looks" id = "BS" onmouseover = "change_BS()">
 			
 		<h5> Breaking Sports</h5> <h6> Intern </h6>
 			<p class = "place"> Ann Arbor, MI </p>
@@ -99,7 +99,7 @@
 		</div>
 			<br>
 
-			<div class="looks">
+			<div class="looks" id = "able" onmouseover = "change_able()">
 			
 		<h5> Able Construction</h5> <h6> Intern </h6>
 			<p class = "place"> Fairfield, CT </p>
@@ -115,28 +115,156 @@
 	<ul class= "stuff1">
   			<li class= "cat"> Platforms  </li>
   			<ol>
+  				<div class= "line">
   				<li>Windows 8/10</li>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
+  			<div class= "line">
   				<li>Mac OS </li>
-  				<li>RedHat Linux</li>
+  				
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  				
+  			</div>
+  			<div class= "line">
+  				<li>Linux</li>
+  				<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
   			</ol>
 		<li class= "cat"> Applications </li>
 		<ol>
-			<li>Microsoft Word, Powerpoint, Excel, Access</li>
+			<div class= "line">
+			<li>Microsoft Office</li>
+			<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  				
+  			</div>
+  			<div class= "line">
 			<li>Adobe Photoshop</li>
+			<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
 		</ol>
-		<li class= "cat">Languages </li>
+		<li class= "cat">Programing Languages </li>
 		<ol>
+			<div class= "line">
 			<li>C++</li>
+			<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  				
+  			</div>
+  			<div class= "line">
 			<li>MatLab</li>
-			<li>Java</li>
+			<div id="circle"></div>
+			<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
+  			<div class= "line">
 			<li>Python</li>
+			<div id="circle"></div>
+			<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
+  			<div class= "line">
+			<li>Java</li>
+			<div id="circle"></div>
+			<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
+  			
+  			<div class= "line">
 			<li>HTML</li>
+			<div id="circle"></div>
+			<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
+  			<div class= "line">
 			<li>CSS</li>
+			<div id="circle"></div>
+			<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
+  			<div class= "line">
 			<li>JavaScript</li>
+			<div id="circle"></div>
+			<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
+		</ol>
+		<li class= "cat">Software</li>
+		<ol>
+			<div class= "line">
+			<li>ASPEN</li>
+			<div id="circle"></div>
+			<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
+  			<div class= "line">
+			<li>COMSOL</li>
+			<div id="circle"></div>
+			<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
 		</ol>
 		<li class= "cat">Speaking Languages</li>
 		<ol>
+			<div class= "line">
 			<li>Spanish</li>
+			<div id="circle"></div>
+			<div id="circle"></div>
+  					<div id="circle"></div>
+  					<div id="unfilled_circle"></div>
+  					<div id="unfilled_circle"></div>
+  				
+  			</div>
+		</ol>
 		</ol>
 	</ul>
 </div>
@@ -159,10 +287,10 @@
 	
 		<p>scschwa@umich.edu</p>
 		<ul class="imagelist">
-		<li><a href="https://www.instagram.com/sam_i_am725/" alt="Instagram"><img src="insta.jpg"></a></li>
-		<li><a alt="Linkedin" href="https://www.linkedin.com/in/samantha-schwartz-362968aa?authType=NAME_SEARCH&authToken=aIoY&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A390556154%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1469308571445%2Ctas%3Asamantha"><img src = "linked.png"></a></li>
-		<li><a alt=" Facebook" href="http://www.facebook.com/samantha.schwartz.773"><img src = "facebook.jpg"></a></li>
-		<li><a alt="Github" href="https://github.com/scschwartz"><img src = "git.png"></a></li>
+		<li><a target='_blank' href="https://www.instagram.com/sam_i_am725/" alt="Instagram"><img src="insta.jpg"></a></li>
+		<li><a target='_blank' alt="Linkedin" href="https://www.linkedin.com/in/samantha-schwartz-362968aa?authType=NAME_SEARCH&authToken=aIoY&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A390556154%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1469308571445%2Ctas%3Asamantha"><img src = "linked.png"></a></li>
+		<li><a target='_blank' alt=" Facebook" href="http://www.facebook.com/samantha.schwartz.773"><img src = "facebook.jpg"></a></li>
+		<li><a target='_blank' alt="Github" href="https://github.com/scschwartz"><img src = "git.png"></a></li>
 		</ul>
 	</div>
 </div>	
