@@ -45,8 +45,7 @@ h1{
 	margin: 0;
 	padding:0;
 	width: 100%;
-	background-color: white;
-	height: 50px;
+
 	
 
 	
@@ -65,7 +64,7 @@ h1{
     font-size: 12pt;
 	text-decoration: none;
 	padding: 20px;
-	color: #FEC3A6;
+	color: black;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 
