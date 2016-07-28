@@ -5,9 +5,9 @@ var p4 = new Image();
 var p5 = new Image();
 var p6 = new Image();
 
-p1.src="pic_1.jpg"
+p1.src="fountain.jpg".
 p6.src = "duomo.jpg";
-p2.src ="fountain.jpg";
+p2.src ="pic_1.jpg" ;
 p3.src = "france.jpg";
 p4.src ="green.jpg";
 p5.src = "love.jpg";
@@ -23,26 +23,26 @@ function change_words(){
         var display = document.getElementById("words");
    
     display.innerHTML=" ";
-    display.innerHTML = "Elephant Party, Summer 2013";
+    display.innerHTML = "On top of the world, Sprint 2015"; 
     }
     else if( counter == 1){
         var display = document.getElementById("words");
    
     display.innerHTML=" ";
-    display.innerHTML = "Trevie fountin, Spring 2015";
+    display.innerHTML = "Living the Lizzie Mcguire movie, Spring 2015";
 
     }
     else if(counter == 2){
         var display = document.getElementById("words");
    
     display.innerHTML=" ";
-    display.innerHTML = "Louve, SPring 2016";
+    display.innerHTML = "Mona, Spring 2016";
     }
     else if (counter == 3){
         var display = document.getElementById("words");
    
     display.innerHTML=" ";
-    display.innerHTML = "Emrald City, Summer 2016";
+    display.innerHTML = "Emerald City, Summer 2016";
     }
     else if (counter == 4){
           var display = document.getElementById("words");
@@ -55,7 +55,7 @@ function change_words(){
           var display = document.getElementById("words");
    
     display.innerHTML=" ";
-    display.innerHTML = "duomo";
+    display.innerHTML = "Elephant Parade, Summer 2013";
     }
 
 }
