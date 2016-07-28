@@ -18,8 +18,46 @@ var imgArray = new Array(p1,p2,p3,p4,p5,p6);
 var counter =0;
 var end = imgArray.length-1;
 
-function myfunction(){
-    alert("Hello! I am an alert box!");
+function change_words(){
+    if (counter == 0){
+        var display = document.getElementById("words");
+   
+    display.innerHTML=" ";
+    display.innerHTML = "Elephant Party, Summer 2013";
+    }
+    else if( counter == 1){
+        var display = document.getElementById("words");
+   
+    display.innerHTML=" ";
+    display.innerHTML = "Trevie fountin, Spring 2015";
+
+    }
+    else if(counter == 2){
+        var display = document.getElementById("words");
+   
+    display.innerHTML=" ";
+    display.innerHTML = "Louve, SPring 2016";
+    }
+    else if (counter == 3){
+        var display = document.getElementById("words");
+   
+    display.innerHTML=" ";
+    display.innerHTML = "Emrald City, Summer 2016";
+    }
+    else if (counter == 4){
+          var display = document.getElementById("words");
+   
+    display.innerHTML=" ";
+    display.innerHTML = "E= mc^2, Summer 2016";
+
+    }
+    else{
+          var display = document.getElementById("words");
+   
+    display.innerHTML=" ";
+    display.innerHTML = "duomo";
+    }
+
 }
 
 function scroll_forward(){
@@ -30,6 +68,7 @@ function scroll_forward(){
         counter++;
     }
     document.pic_1.src = imgArray[counter].src;
+    change_words();
 }
 
 function scroll_backward(){
@@ -41,6 +80,7 @@ function scroll_backward(){
 
     }
     document.pic_1.src = imgArray[counter].src;
+    change_words();
 }
 
 
