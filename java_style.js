@@ -5,9 +5,9 @@ var p4 = new Image();
 var p5 = new Image();
 var p6 = new Image();
 
-p1.src="fountain.jpg".
-p6.src = "duomo.jpg";
-p2.src ="pic_1.jpg" ;
+p1.src="duomo.jpg";
+p6.src = "pic_1.jpg";
+p2.src ="fountain.jpg";
 p3.src = "france.jpg";
 p4.src ="green.jpg";
 p5.src = "love.jpg";
