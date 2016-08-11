@@ -23,7 +23,7 @@ function change_words(){
         var display = document.getElementById("words");
    
     display.innerHTML=" ";
-    display.innerHTML = "On top of the world, Sprint 2015"; 
+    display.innerHTML = "On top of the world, Spring 2015"; 
     }
     else if( counter == 1){
         var display = document.getElementById("words");
