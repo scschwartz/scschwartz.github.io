@@ -20,7 +20,7 @@ function change_research(){
     var display = document.getElementById("research");
    
     display.innerHTML=" ";
-    display.innerHTML = "Using molecular simulation to study the desorption kinetics of polymers from surfaces. Specifically, using well-tempered metadynamics to find the likelihood that a polymer will "stick" to a surface.";
+    display.innerHTML = "Using molecular simulation to study the desorption kinetics of polymers from surfaces. Specifically, using well-tempered metadynamics to find the likelihood that a polymer will 'stick' to a surface.";
     display.style.color = 'black';
 }
 
